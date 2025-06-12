@@ -8,7 +8,7 @@ public class FindMaximumsumarrayofsum {
 		int[] ar = { -2, -3, 4, -1, -2, 1, 5, -3 };
 
 		int sum = 0;
-		int max_sum = ar[0];
+		int max_sum = ar[0]; //
 
 		for (int i = 0; i < ar.length; i++) {
 			sum += ar[i]; // Update sum with the current element
