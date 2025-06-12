@@ -2,15 +2,24 @@ package com.ak.array;
 
 public class FindMissingNo {
     public static void main(String[] args) {
-        int[] ar = {2,3,5,6};
-        int n =  ar.length;
-        int sum  = ( n*(n+1))/2;
-        int temp = 0;
-        for (int j : ar) {
-            temp = temp + j;
+
+                int[] ar = {2, 3, 5, 6};
+
+                int max = Integer.MIN_VALUE;
+                int sum = 0;
+
+                for (int j : ar) {
+                    sum += j;
+                    if (j > max) {
+                        max = j;
+                    }
+                }
+
+                int expectedSum = (max * (max + 1)) / 2;
+                int missingNo = expectedSum - sum;
+
+                System.out.println("Missing number: " + missingNo); // Output: 1
+            }
         }
-      //  int sum  = ( n*(n+1))/2;
-        int missingNo =  sum-temp;
-        System.out.println(missingNo);
-    }
-}
+
+
