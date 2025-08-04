@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Java8_Prep2/Java8_Prep2.iml" filepath="$PROJECT_DIR$/../Java8_Prep2/Java8_Prep2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Java8_dev/Java8_dev.iml" filepath="$PROJECT_DIR$/../Java8_dev/Java8_dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Java8_features/Java8_features.iml" filepath="$PROJECT_DIR$/../Java8_features/Java8_features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaDsa.iml" filepath="$PROJECT_DIR$/.idea/JavaDsa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JavaMIsc/JavaMIsc.iml" filepath="$PROJECT_DIR$/../JavaMIsc/JavaMIsc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../OOPS_Explorer/OOPS_Explorer.iml" filepath="$PROJECT_DIR$/../OOPS_Explorer/OOPS_Explorer.iml" />
+    </modules>
+  </component>
+</project>
